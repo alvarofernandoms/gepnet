@@ -1201,9 +1201,9 @@ class Projeto_Service_Gerencia extends App_Service_ServiceAbstract
             'port' => 25,
             'auth' => 'login',
 //                'ssl' => 'tls',
-            'email' => 'wflino@stefanini.com',
-            'username' => 'wflino',
-            'password' => 'linosuporte'
+            'email' => 'test@example.com',
+            'username' => 'test',
+            'password' => 'password'
         );#inserir a senha de acesso ao email
         #se a senha nao estiver vazia envia o e-mail
         try {
@@ -1221,7 +1221,7 @@ class Projeto_Service_Gerencia extends App_Service_ServiceAbstract
                 //$mail->setFrom("wendell.wlfl@gmail.com", "SigNet - Sistema de Gerenciamento de Projetos");
 
 //                $mail->addTo($params->emailpatrocinador,$params->emailgerenteprojeto,$params->emailgerenteadjunto);
-                $mail->addTo('wflino@stefanini.com');
+                $mail->addTo('test@example.com');
                 $mail->send();
 //                print '<BR>send()';
 //                exit;

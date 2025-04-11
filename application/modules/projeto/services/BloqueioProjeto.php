@@ -170,7 +170,7 @@ class Projeto_Service_BloqueioProjeto extends App_Service_ServiceAbstract
 //            $from       = "FROM: GEPNet - Gestor de Escritórios de Projetos <gepnet@noreply.com>";
             $from = "From: GEPNet - Gestor de Escritórios de Projetos <gepnet@no-reply.com>";
             //@TODO remover email de teste, habilitar emails dos participantes do projeto
-            $to = 'rbolina@stefanini.com';
+            $to = 'test@example.com';
 //            $to         = "{$params['emailPatrocinador']},{$params['emailGerenteProjeto']},{$params['emailGerenteAdjunto']},{$params['emailEscritorioProjetos']}";
 //            $service->enviaEmail(array('to'=>$to,'subject' => $assunto, 'body' => $textoEmailBloqueio, 'from' => $from));
             return true;
@@ -194,7 +194,7 @@ class Projeto_Service_BloqueioProjeto extends App_Service_ServiceAbstract
 //            $from       = "FROM: GEPNet - Gestor de Escritórios de Projetos <gepnet@noreply.com>";
             $from = "From: GEPNet - Gestor de Escritórios de Projetos <gepnet@no-reply.com>";
             //@TODO remover email de teste, habilitar emails dos participantes do projeto
-            $to = 'rbolina@stefanini.com';
+            $to = 'test@example.com';
 //            $to         = "{$params['emailPatrocinador']},{$params['emailGerenteProjeto']},{$params['emailGerenteAdjunto']},{$params['emailEscritorioProjetos']}";
             $service->enviaEmail(array(
                 'to' => $to,
